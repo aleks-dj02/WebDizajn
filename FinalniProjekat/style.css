@@ -3,10 +3,6 @@
   @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&family=Playfair+Display&family=Satisfy&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&family=Satisfy&display=swap');
 
-
-
-
-
 *{
     margin: 0px;
     padding: 0px;
@@ -57,4 +53,12 @@ position: absolute;
         color:rgb(49, 49, 49);
         padding-bottom: 2%;
 
+    }
+    .slike{
+
+    }
+
+    .slike:hover{
+      transform: scale(1.1);
+      transition: 1s;
     }
