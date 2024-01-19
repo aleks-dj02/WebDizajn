@@ -8,19 +8,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
+<<<<<<< HEAD
     <title>Document</title>
+=======
+
+    <title>Kokteli</title>
+>>>>>>> 099a57828d64992bd186e37488fcdc875753d5b0
 </head>
 <body>
 <div   class="container-fluid" >
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand nav-link active button" href="#">Navbar</a>
+      <a class="navbar-brand nav-link active" href="#">logo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class= "nav-link button active button"href="#">Naslovna</a>
+              </li>
           <li class="nav-item">
             <a class= "nav-link button"href="#">Kokteli</a>
           </li>
@@ -37,7 +45,7 @@
             <a class="nav-link button" href="#">Proizvodi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link button" href="#">Kontakt</a>
+            <a class="nav-link button" href="#">Bezalkoholni kokteli</a>
           </li>
           <li class="nav-item">
             <a class="nav-link button" href="#">O nama</a>
@@ -58,9 +66,85 @@
   </nav>
 <div class="slika">
     <img src="/slike/main2.png" alt="Kokteli" width="100%" >
-    <h1 class="header">Kokteli</h1>
+    <h1 class="header">Kokteli <br> za svačiji ukus</h1>
 </div>
 
+<div style="width: 100%;" >
+    <p class="tekst badge bg-white text-wrap fs-4" style="width: 100%;" >Istražite svet prepun ukusa, boja i neodoljivih mirisa, gde se svaki gutljaj pretvara u avanturu za vaše čulo ukusa.</p>
 </div>
+    <div style="width: 100%;">
+    <p class="tekst badge bg-white text-wrap fs-5" style="width: 100%;" > Očarajte se vizuelnom raskoši boja, slojeva i dekoracija koje čine svaki koktel jedinstvenim. Svaki gutljaj je priča, svaki koktel je doživljaj, a mi vam nudimo ključ za otključavanje vrata ovog jedinstvenog sveta.
+
+        Dopustite nam da vas vodimo kroz raznolike recepte, otkrivamo tajne bezalkoholnih alternativa, predstavljamo vam koktele meseca i istražujemo najbolje barove u Novom Sadu. Registracijom postajete deo naše zajednice ljubitelja koktela, gde se deljenje strasti prema ovom iskustvu pretvara u pravo zadovoljstvo.
+        </p>
+</div>
+<div class=" text-center p-1 row fixed-bottom bg-body-tertiary ">
+    <div class="col">
+        <a href="mailto:mpejovic069@gmail.com" style="color: rgb(105, 105, 105);">Milica Pejović</a>
+    </div>
+    <div class="col">
+        <a href="mailto:luka.zuber2012@gmail.com" style="color: rgb(105, 105, 105);">Luka Zuber</a>
+    </div>
+    <div class="col">
+        <a href="mailto:aleksandra.dj2002@gmail.com" style="color: rgb(105, 105, 105);">Alekasndra Đorđević</a>
+    </div>			
+</div>
+<div class="bg-body-primary text-center clock">
+    <p class="tekst fs-4">Savršeno vreme za koktel:</p>
+    <h1 id="clock"></h1>
+</div>
+<div class="row" style="padding-bottom: 2%;">
+    <div class="col-sm-3 mb-1 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+            <img src="/slike/proba.png" class="card-img-top" alt="proba">
+            <p class="card-text">Upustite se u svet koktela - od klasičnih do inovativnih, tu su recepti za svačiji ukus.</p>
+            <a href="#" class="btn fs-5 button">Recepti</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-1 mb-sm-0" >
+      <div class="card">
+            <div class="card-body">
+                <img src="/slike/proba.png" class="card-img-top" alt="proba">
+                <p class="card-text">Upustite se u svet koktela - od klasičnih do inovativnih, tu su recepti za svačiji ukus.</p>
+                <a href="#" class="btn fs-5 button">Recepti</a>
+            </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-1 mb-sm-0" >
+        <div class="card">
+              <div class="card-body">
+                  <img src="/slike/proba.png" class="card-img-top" alt="proba">
+                  <p class="card-text">Upustite se u svet koktela - od klasičnih do inovativnih, tu su recepti za svačiji ukus.</p>
+                  <a href="#" class="btn fs-5 button">Recepti</a>
+              </div>
+        </div>
+      </div>
+      <div class="col-sm-3 mb-1 mb-sm-0" >
+        <div class="card">
+
+              <div class="card-body">
+                  <img src="/slike/proba.png" class="card-img-top" alt="proba">
+                  <p class="card-text">Upustite se u svet koktela - od klasičnih do inovativnih, tu su recepti za svačiji ukus.</p>
+                  <a href="#" class="btn fs-5 button">Recepti</a>
+              </div>
+        </div>
+      </div>
+  </div>
+
+</div>
+		
+<script>
+    var myVar = setInterval(function() {
+      myTimer();
+    }, 1000);
+    
+    function myTimer() {
+      var d = new Date();
+      document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+    }
+    </script>
+
 </body>
 </html>

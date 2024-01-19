@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Satisfy&display=swap');
+=======
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Satisfy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&family=Playfair+Display&family=Satisfy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&family=Satisfy&display=swap');
+
+
+
+>>>>>>> 099a57828d64992bd186e37488fcdc875753d5b0
 
 * {
     margin: 0px;
@@ -10,8 +20,16 @@ body {
     background-color: #c7e0d9;
 }
 
+<<<<<<< HEAD
 .button {
     font-family: 'DM Serif Display', serif;
+=======
+.button{
+    font-family: DM Serif Display;
+    padding-left: 2%;
+    border-radius: 5px;
+    
+>>>>>>> 099a57828d64992bd186e37488fcdc875753d5b0
 }
 
 .button:hover {
@@ -36,3 +54,32 @@ body {
     font-size: 2.5vw;
 }
 </style>
+      align-content: center;
+      padding-bottom: 1%;
+      }
+
+      .header{
+position: absolute;
+  padding-left: 6%;
+  padding-bottom: 30%;
+  transform: translateX(-30%);
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  font-size: 7vw;
+  font-family: Dancing Script;
+      }
+     
+      .tekst{
+       color: rgb(80, 80, 80);
+        font-family: Playfair Display;
+        padding: 1%;
+      }
+      .clock{
+
+        font-family:Playfair Display;
+        color:rgb(49, 49, 49);
+        padding-bottom: 2%;
+
+    }
