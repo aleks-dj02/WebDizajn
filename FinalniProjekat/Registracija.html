@@ -63,31 +63,23 @@
     </div>
   </nav>
   <div class="progress-bar" style=" position: fixed;height: 8px;background: #b2b2b2; width: 0%;" id="myBar"></div>
-<div class="slika">
-    <img src="/slike/Espresso_Martini_koktel_meseca.jpg" alt="Kokteli" width="100%"  >
-    <h1 class="header"> <br> Koktel meseca: Espresso Martini  </h1>
-</div>
 
-<div style="width: 100%;" >
-    <p class="tekst badge bg-white text-wrap fs-4" style="width: 100%;" >Espresso Martini je sofisticiran koktel koji spaja najbolje iz dva sveta: kofeina i alkohola. Ovaj elegantni napitak je savršen izbor za one koji vole uživati u klasičnom ukusu espressa sa dodatkom votke.</p>
-</div>
-    <div style="width: 100%;">
-    <p class="tekst badge bg-white text-wrap fs-5" style="width: 100%;" > Espresso Martini je idealan za večernje izlaske, posebno kao poslastica nakon večere ili kao elegantan završetak romantične večeri.
-        </p>
-</div>
-<div style="width: 100%;">
-    <p class="tekst badge bg-white text-wrap fs-5" style="width: 100%;" > Sastojci:<br>
-        60 ml votke<br>
-        30 ml likera od kafe (npr. Kahlúa)<br>
-        30 ml sveže pripremljenog espressa (ohlađen)<br>
-        15 ml jednostavnog sirupa (šećer + voda, kuvano i ohlađeno)<br>
-        Led<br>
-        Priprema:<br>
-        U shakeru, kombinujte votku, liker od kafe, sveže pripremljeni espresso i jednostavni sirup.<br>
-        Dodajte led i dobro protresite sve sastojke.<br>
-        Procedite u ohlađenu martini čašu.<br><br>
-        </p>
-</div>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1" style="font-family:DM Serif Display ;">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1"style="font-family:DM Serif Display ;">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1"style="font-family:DM Serif Display ;">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 <div class=" text-center p-1 row fixed-bottom bg-body-tertiary ">
     <div class="col">
         <a href="mailto:mpejovic069@gmail.com" style="color: rgb(105, 105, 105);">Milica Pejović</a>
@@ -100,6 +92,7 @@
     </div>			
 </div>
 
+
 </div>
 <script>
     // When the user scrolls the page, execute myFunction 
@@ -111,7 +104,7 @@
         var scrolled = (winScroll / height) * 100;
         document.getElementById("myBar").style.width = scrolled + "%";
     }
-  </script>		
+  </script>	
 
 
 </body>
