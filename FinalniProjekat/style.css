@@ -90,7 +90,18 @@ position: absolute;
         color:rgb(49, 49, 49);
         padding-bottom: 2%;
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8df7ff6d6baeb246eac37a9121d9420c54066137
+    .slike{
+
+    }
+
+<<<<<<< HEAD
     .slike{
 
     }
@@ -100,6 +111,19 @@ position: absolute;
       transition: 1s;
     }
 
+    
+=======
+    .slike:hover{
+      transform: scale(1.08);
+      transition: 1s;
+    }
+
 
     
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75f23a2f81579c6b34440e620e91c0c638ec7a4c
+>>>>>>> b8c162a8bc2f8ab3506328b478765437845c0e04
+>>>>>>> c59fb2e2bd1012e7918cdc6ccbd2c5a18a386eda
+>>>>>>> 8df7ff6d6baeb246eac37a9121d9420c54066137
