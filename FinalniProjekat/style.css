@@ -81,5 +81,9 @@ position: absolute;
         font-family:Playfair Display;
         color:rgb(49, 49, 49);
         padding-bottom: 2%;
-
     }
+.card:hover{
+    transform: scale(1.1);
+    transform: 1s;
+}
+    
