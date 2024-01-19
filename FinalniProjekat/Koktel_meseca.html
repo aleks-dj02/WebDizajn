@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Solarni Sistem</title>
+	    <meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="style.css" rel="stylesheet"> 
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-1">
+				</div>
+				<div class="col-10" id="page">
+					
+					
+					<div class="row mt-2 mb-2  sticky-top " id="header">
+						<div class="col-12 p-0" id="navigacija">
+							<nav class="navbar  rounded-3  navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark" id="senka">
+							  <div class="container-fluid">
+								<a class="navbar-brand" href="index.html">
+									<img src="logo.png" class="image-fluid" width="50px"; alt="LogoSajta">
+									Solista
+								</a>
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+								  <span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+								  <ul class="navbar-nav">
+									<li class="nav-item">
+									  <a class="nav-link" href="#">Nastanak</a>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link" href="#">Zanimljivosti</a>
+									</li>
+								  </ul>
+								</div>
+							  </div>
+							</nav>							
+						</div>
+					</div>
+					
+					<div class="row" id="content">
+						
+						<div class="col mb-2 bg-body-secondary rounded-2 opacity-75 text-center" id="jsclock">
+							<h2 id="clock"></h2>
+						</div>
+						
+						<div class="col-12" id="kartice">
+							<a class="link" href="Merkur.html">
+							<div class="row  mb-2 p-0  align-items-end rounded-2" id="Merkur">	
+								<h3 class=" text-start ">Merkur</h3>
+							</div>
+							</a>
+							<div class="row mb-2 p-0  align-items-end rounded-2" id="Venera">
+								<h3 class=" text-start ">Venera</h3>
+							</div>	
+							<div class="row mb-2 p-0  align-items-end rounded-2" id="Zemlja">
+								<h3 class=" text-start ">Zemlja</h3>
+							</div>	
+							<div class="row mb-2 p-0  align-items-end rounded-2" id="Mars">
+								<h3 class=" text-start ">Mars</h3>
+							</div>
+							<div class="row mb-2 p-0  align-items-end rounded-2" id="Jupiter">
+								<h3 class=" text-start ">Jupiter</h3>
+							</div>							
+							<div class="row mb-2 p-0  align-items-end rounded-2" id="Saturn">
+								<h3 class=" text-start ">Saturn</h3>
+							</div>
+							<div class="row mb-2 p-0  align-items-end rounded-2" id="Uran">
+								<h3 class=" text-start ">Uran</h3>
+							</div>	
+							<div class="row mb-2 p-0  align-items-end rounded-2" id="Neptun">
+								<h3 class=" text-start ">Neptun</h3>
+							</div>															
+						</div>
+					</div>	
+					<br>
+
+					<div class="row  mt-2 fixed-bottom rounded-1 text-center " id="footer">
+						<div class="col">
+							@Nemanja Divjak
+						</div>
+						<div class="col">
+							@Biserka Jakovljević
+						</div>
+						<div class="col">
+							<a href="mailto:pelinkovaciksde@gmail.com">@Nikola Lučić</a>
+						</div>												
+					</div>									
+				</div>
+				<div class="col-1">
+				</div>
+			</div>					
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+		
+<script>
+var myVar = setInterval(function() {
+  myTimer();
+}, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+}
+</script>
+			
+	</body>
+
+</html>
